@@ -7,17 +7,7 @@ window.onload = function () {
 	for (let i = 0; i < eee.length; i++) {
 		eee[i].addEventListener("click", rotate, false);
 	}
-
-	// function rotate(){
-	// 	if(!this.clicked){
-	// 	 this.src = frontSide;
-    //  this.clicked = true;
-	// 	}
-	// 	else{
-	// 		this.src = shirt;
-    //   this.clicked = false;
-	// 	}
-	// }
+	
 	function rotate(){
 		if(this.flag){
 		 this.src = shirt;
